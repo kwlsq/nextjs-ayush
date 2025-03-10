@@ -1,3 +1,5 @@
+"use client";
+
 interface ButtonCapsuleProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
