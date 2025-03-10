@@ -4,7 +4,7 @@ import AboutSection from "./components/About";
 // import GallerySection from "./components/Gallery";
 import HeroSection from "./components/Hero";
 // import TestimonialSection from "./components/Testimonials";
-// import WorkSection from "./components/Work";
+import WorkSection from "./components/Work";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       {/* <FloatingMenu /> */}
       <HeroSection />
       <AboutSection />
-      {/* <WorkSection /> */}
+      <WorkSection />
       {/* <GallerySection /> */}
       {/* <TestimonialSection /> */}
       {/* <FooterSection /> */}
