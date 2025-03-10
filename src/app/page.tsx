@@ -1,6 +1,6 @@
 import AboutSection from "./components/About";
 // import FloatingMenu from "./components/FloatingMenu";
-// import FooterSection from "./components/Footer";
+import FooterSection from "./components/Footer";
 import GallerySection from "./components/Gallery";
 import HeroSection from "./components/Hero";
 import TestimonialSection from "./components/Testimonials";
@@ -15,7 +15,7 @@ export default function Home() {
       <WorkSection />
       <GallerySection />
       <TestimonialSection />
-      {/* <FooterSection /> */}
+      <FooterSection />
     </>
   );
 }
