@@ -1,4 +1,5 @@
 import { galleryListRow1, galleryListRow2 } from "@/constants/ImagesList";
+import Image from "next/image";
 
 const GallerySection = () => {
   return (
@@ -9,7 +10,9 @@ const GallerySection = () => {
             key={index}
             className="flex-shrink-0 w-[444px] h-[306px] bg-[#C7D0D9] px-[48px] py-[56px] shadow-lg hover:shadow-2xl cursor-pointer"
           >
-            <img
+            <Image
+              width={100}
+              height={100}
               src={image.src}
               alt={image.alt}
               className="w-full h-full object-contain"
@@ -23,7 +26,9 @@ const GallerySection = () => {
             key={index}
             className="flex-shrink-0 w-[444px] h-[306px] bg-[#C7D0D9] px-[48px] py-[56px] shadow-lg hover:shadow-2xl cursor-pointer"
           >
-            <img
+            <Image
+              width={100}
+              height={100}
               src={image.src}
               alt={image.alt}
               className="w-full h-full object-contain"
