@@ -1,4 +1,4 @@
-// import AboutSection from "./components/About";
+import AboutSection from "./components/About";
 // import FloatingMenu from "./components/FloatingMenu";
 // import FooterSection from "./components/Footer";
 // import GallerySection from "./components/Gallery";
@@ -11,7 +11,7 @@ export default function Home() {
     <>
       {/* <FloatingMenu /> */}
       <HeroSection />
-      {/* <AboutSection /> */}
+      <AboutSection />
       {/* <WorkSection /> */}
       {/* <GallerySection /> */}
       {/* <TestimonialSection /> */}
